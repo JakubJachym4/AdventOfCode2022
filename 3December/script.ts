@@ -31,9 +31,42 @@ const convertToPriority = (character: string) =>{
 }
 
 let priorityArray: Array<number> = [];
-sharedCharacters.forEach(character => priorityArray.push(convertToPriority(character))); 
 let sum:number = 0;
-priorityArray.forEach(priority => sum += priority);
+sharedCharacters.forEach(character => sum += convertToPriority(character)); 
+console.log(sum);
 
+// PART TWO
+const secondSharedCharacters: Array<string> = [];
+
+let linesCounter:number = 0;
+let threeLines:Array<string> = [];
+linesArray.forEach(oneLine => {
+    linesCounter++;
+    threeLines.push(oneLine);
+    if(linesCounter % 3 === 0){
+        monster();
+        threeLines = [];
+        linesCounter = 0; 
+    }
+})
+
+function monster(): void{
+    (() => {
+        for (let i: number = 0; i < threeLines[0].length; i++) {
+            for (let j: number = 0; j < threeLines[1].length; j++) {
+                for(let k: number = 0; k < threeLines[2].length; k++){
+                    if(threeLines[0][i] === threeLines[1][j] && threeLines[1][j] === threeLines[2][k]){
+                        secondSharedCharacters.push(threeLines[0][i]);
+                        return;
+                    }
+                }
+            }
+        }
+    })();
+}
+
+let secondPriorityArray: Array<number> = [];
+sum = 0;
+secondSharedCharacters.forEach(character => sum += convertToPriority(character));
 
 console.log(sum);
