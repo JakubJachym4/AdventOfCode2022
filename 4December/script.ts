@@ -9,7 +9,7 @@ pairs.forEach(pair =>{
     const onePair:Array<number> = pair.split(/,|-/).map(item => parseInt(item, 10));
     const lowerLeft:number = onePair[0], upperLeft:number = onePair[1];
     if(lowerLeft <= onePair[2] && upperLeft >= onePair[3] ||
-         lowerLeft >= onePair[2] && upperLeft <= onePair[3]){
+        lowerLeft >= onePair[2] && upperLeft <= onePair[3]){
         containCounter++;
     }
 });
@@ -17,3 +17,17 @@ pairs.forEach(pair =>{
 console.log(containCounter);
 
 // PART TWO
+
+let overlapCounter:number = 0;
+
+pairs.forEach(pair =>{
+    const onePair:Array<number> = pair.split(/,|-/).map(item => parseInt(item, 10));
+    const lowerLeft:number = onePair[0], upperLeft:number = onePair[1];
+    if(upperLeft >= onePair[2] && upperLeft <= onePair[3] || 
+        lowerLeft >= onePair[2] && lowerLeft <= onePair[3] ||
+        lowerLeft<= onePair[2] && upperLeft >= onePair[3]){
+        overlapCounter++;
+    }
+});
+
+console.log(overlapCounter);
