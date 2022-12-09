@@ -21,6 +21,7 @@
             }
         }
 
+        
         Console.WriteLine($"Visible trees: {visibleTrees} | Highest scenic score: {highestScenicScore}.\n");
         Console.ReadKey();
     }
