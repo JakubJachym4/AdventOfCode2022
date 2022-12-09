@@ -108,8 +108,4 @@ for (int i = 0; i < treeMapCol.Count; i++)
     }
 }
 
-// foreach (var tree in indexes)
-// {
-//     Console.WriteLine(tree);
-// }
 Console.WriteLine($"Trees count: {treesCount}");
