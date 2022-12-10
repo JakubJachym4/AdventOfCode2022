@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AdventOfCode2022\\6_7December\\Day6\\Day6.csproj": {}
+    "D:\\AdventOfCode2022\\9December\\Day9\\Day9\\Day9.csproj": {}
   },
   "projects": {
-    "D:\\AdventOfCode2022\\6_7December\\Day6\\Day6.csproj": {
+    "D:\\AdventOfCode2022\\9December\\Day9\\Day9\\Day9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AdventOfCode2022\\6_7December\\Day6\\Day6.csproj",
-        "projectName": "Day6",
-        "projectPath": "D:\\AdventOfCode2022\\6_7December\\Day6\\Day6.csproj",
+        "projectUniqueName": "D:\\AdventOfCode2022\\9December\\Day9\\Day9\\Day9.csproj",
+        "projectName": "Day9",
+        "projectPath": "D:\\AdventOfCode2022\\9December\\Day9\\Day9\\Day9.csproj",
         "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
-        "outputPath": "D:\\AdventOfCode2022\\6_7December\\Day6\\obj\\",
+        "outputPath": "D:\\AdventOfCode2022\\9December\\Day9\\Day9\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -54,24 +54,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

@@ -70,7 +70,7 @@ void HandleLs()
 }
 
 int realSum = 0;
-List<int> dirSizes = new(); // PART TWO
+List<int> dirSizes = new();
 
 int FindTotalSize(Dir directory, int sum)
 {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Day6_7\\Day7\\Day7.csproj": {}
+    "D:\\AdventOfCode2022\\6_7December\\Day7\\Day7.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Day6_7\\Day7\\Day7.csproj": {
+    "D:\\AdventOfCode2022\\6_7December\\Day7\\Day7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Day6_7\\Day7\\Day7.csproj",
+        "projectUniqueName": "D:\\AdventOfCode2022\\6_7December\\Day7\\Day7.csproj",
         "projectName": "Day7",
-        "projectPath": "D:\\C#\\Day6_7\\Day7\\Day7.csproj",
+        "projectPath": "D:\\AdventOfCode2022\\6_7December\\Day7\\Day7.csproj",
         "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Day6_7\\Day7\\obj\\",
+        "outputPath": "D:\\AdventOfCode2022\\6_7December\\Day7\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio\\Shared\\NuGetPackages"
@@ -54,12 +54,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
