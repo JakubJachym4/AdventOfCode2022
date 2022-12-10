@@ -5,7 +5,7 @@ public class Coordinates
     public int X { get; set; }
     public int Y { get; set; }
 
-    public Coordinates(int x, int y)
+    public Coordinates(int x = 0, int y = 0)
     {
         this.X = x;
         this.Y = y;
@@ -16,13 +16,7 @@ public class Coordinates
         this.X = x;
         this.Y = y;
     }
-
-    protected Coordinates()
-    {
-        this.X = 0;
-        this.Y = 0;
-    }
-
+    
     public (int X, int Y) Position()
     {
         return (this.X, this.Y);
@@ -32,7 +26,7 @@ public class Coordinates
 public class Head : Coordinates
 {
     public Coordinates LastPosition { get; set; }
-    private Tail? AttachedTail { get; set; }
+    private Tail AttachedTail { get; set; }
     public Head(int x, int y)
     {
         this.X = x;
@@ -46,47 +40,29 @@ public class Head : Coordinates
     }
     public void Move(char direction, int distance)
     {
-        
         for(int i = 0; i < distance; i++)
         {
             LastPosition.SetCords(this.X, this.Y);
             switch (direction)
             {
                 case 'U':
-                    MoveUp();
+                    this.Y++;
                     break;
-            
                 case 'D':
-                    MoveDown();
+                    this.Y--;
                     break;
                 case 'R':
-                    MoveRight();
+                    this.X++;
                     break;
                 case 'L':
-                    MoveLeft();
+                    this.X--;
                     break;
             }
             AttachedTail.FollowHead();
         }
         
     }
-
-    private void MoveUp()
-    {
-        this.Y++;
-    }
-    private void MoveDown()
-    {
-        this.Y--;
-    }
-    private void MoveRight()
-    {
-        this.X++;
-    }
-    private void MoveLeft()
-    {
-        this.X--;
-    }
+    
 }
 
 public class Tail : Coordinates
@@ -108,7 +84,7 @@ public class Tail : Coordinates
     {
         this.AttachedHead = newHead;
     }
-    public bool IsNextTo()
+    private bool IsNextTo()
     {
         (int X, int Y) calcAbsPath;
         calcAbsPath.X = Math.Abs(AttachedHead.X - this.X);
@@ -116,13 +92,15 @@ public class Tail : Coordinates
         return calcAbsPath is { X: <= 1, Y: <= 1 };
     }
 
-    public void FollowHead()
+    public virtual void FollowHead()
     {
         if(IsNextTo() == true)
             return;
+        
         var lastHeadPosition = AttachedHead.LastPosition;
         this.X = lastHeadPosition.X;
         this.Y = lastHeadPosition.Y;
+        
         if (HasVisited() == false)
         {
             VisitedPositions.Add((this.X, this.Y));
@@ -130,7 +108,7 @@ public class Tail : Coordinates
         }
     }
     
-    public bool HasVisited()
+    protected virtual bool HasVisited()
     {
         return VisitedPositions.Any(pos =>
             pos.X == this.X && pos.Y == this.Y);

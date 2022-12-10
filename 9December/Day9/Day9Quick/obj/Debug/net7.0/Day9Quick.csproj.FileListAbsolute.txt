@@ -1,0 +1,15 @@
+D:\AdventOfCode2022\9December\Day9\Day9Quick\bin\Debug\net7.0\Day9Quick.exe
+D:\AdventOfCode2022\9December\Day9\Day9Quick\bin\Debug\net7.0\Day9Quick.deps.json
+D:\AdventOfCode2022\9December\Day9\Day9Quick\bin\Debug\net7.0\Day9Quick.runtimeconfig.json
+D:\AdventOfCode2022\9December\Day9\Day9Quick\bin\Debug\net7.0\Day9Quick.dll
+D:\AdventOfCode2022\9December\Day9\Day9Quick\bin\Debug\net7.0\Day9Quick.pdb
+D:\AdventOfCode2022\9December\Day9\Day9Quick\obj\Debug\net7.0\Day9Quick.csproj.AssemblyReference.cache
+D:\AdventOfCode2022\9December\Day9\Day9Quick\obj\Debug\net7.0\Day9Quick.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdventOfCode2022\9December\Day9\Day9Quick\obj\Debug\net7.0\Day9Quick.AssemblyInfoInputs.cache
+D:\AdventOfCode2022\9December\Day9\Day9Quick\obj\Debug\net7.0\Day9Quick.AssemblyInfo.cs
+D:\AdventOfCode2022\9December\Day9\Day9Quick\obj\Debug\net7.0\Day9Quick.csproj.CoreCompileInputs.cache
+D:\AdventOfCode2022\9December\Day9\Day9Quick\obj\Debug\net7.0\Day9Quick.dll
+D:\AdventOfCode2022\9December\Day9\Day9Quick\obj\Debug\net7.0\refint\Day9Quick.dll
+D:\AdventOfCode2022\9December\Day9\Day9Quick\obj\Debug\net7.0\Day9Quick.pdb
+D:\AdventOfCode2022\9December\Day9\Day9Quick\obj\Debug\net7.0\Day9Quick.genruntimeconfig.cache
+D:\AdventOfCode2022\9December\Day9\Day9Quick\obj\Debug\net7.0\ref\Day9Quick.dll
