@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "RunDays/1.0.0": {
+        "dependencies": {
+          "Day10": "1.0.0"
+        },
+        "runtime": {
+          "RunDays.dll": {}
+        }
+      },
+      "Day10/1.0.0": {
+        "runtime": {
+          "Day10.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RunDays/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Day10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

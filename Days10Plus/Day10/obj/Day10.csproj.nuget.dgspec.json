@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AdventOfCode2022\\Days10Plus\\Days10Plus\\Days10Plus.csproj": {}
+    "D:\\AdventOfCode2022\\Days10Plus\\Day10\\Day10.csproj": {}
   },
   "projects": {
-    "D:\\AdventOfCode2022\\Days10Plus\\Days10Plus\\Days10Plus.csproj": {
+    "D:\\AdventOfCode2022\\Days10Plus\\Day10\\Day10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AdventOfCode2022\\Days10Plus\\Days10Plus\\Days10Plus.csproj",
-        "projectName": "Days10Plus",
-        "projectPath": "D:\\AdventOfCode2022\\Days10Plus\\Days10Plus\\Days10Plus.csproj",
+        "projectUniqueName": "D:\\AdventOfCode2022\\Days10Plus\\Day10\\Day10.csproj",
+        "projectName": "Day10",
+        "projectPath": "D:\\AdventOfCode2022\\Days10Plus\\Day10\\Day10.csproj",
         "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
-        "outputPath": "D:\\AdventOfCode2022\\Days10Plus\\Days10Plus\\obj\\",
+        "outputPath": "D:\\AdventOfCode2022\\Days10Plus\\Day10\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio\\Shared\\NuGetPackages"
