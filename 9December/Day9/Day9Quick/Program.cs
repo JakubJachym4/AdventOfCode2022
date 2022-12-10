@@ -1,4 +1,4 @@
-﻿string[] inputFile = File.ReadAllLines(@"input.txt");
+﻿ 
 
 Day9Quick(inputFile);
 static void Day9Quick(string[] lines)
